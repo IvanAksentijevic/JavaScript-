@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="sr-Serbian">
+   <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link rel = "icon" href = "appData/images/HeYE! Ikonica.png" type = "image/x-icon">
+        <title> Help Your Eyes!</title>
+       
+        <style>@import url("appData/HeYE.css");</style>
+        <script src="appData/scrip.js" async></script>
+    </head>
+  <body>
+        <div id="main_contanier">
+            <div id="logo">
+                <img id="top" src="appData/images/HeYE!_Logo.png" alt="LOGO" height="25mm">
+            </div>
+            <div class="podesavanje" id="objasnjenje">
+                <p>
+                  Ova aplikacija je namenjena ljudima koji mnogo rade za računarom i dugo gledaju u ekran.
+                  Glavna ideja je da Vam pomogne da relaksirate oči i da prekinete na nekih par minuta sa radom
+                  i da uz određene vežbe ozvežite oči i možda sačuvate vid od propadanja.
+                  U aplikaciji je serija vežbi koju bi trebalo da radite naporedo sa slajdovima i da radite onoliko dugo
+                  koliko traje slajd.<br>
+                  Ove vežbe su preporučene od strane više stručnjaka.  
+                 </p>
+                 <p class="napomena">Napomena:Bilo šta da vam smeta i ne prija NEMOJTE RADITI!</p>
+                 
+            </div>
+            <div id="forma">
+                 <p>
+                    Odaberite vreme na koliko hoćete da se pojave vežbe. Ne gasite browser!
+                 </p>
+                
+
+                     <input type="radio" id="45_min" name="min" value="45">
+                     <label for="45_min">45 minuta</label>
+                     <input type="radio" id="60_min" name="min" value="60">
+                     <label for="60_min">60 minuta</label>
+                     <input type="radio" id="75_min" name="min" value="75">
+                     <label for="75_min">75 minuta</label>
+                     <input type="radio" id="90_min" name="min" value="90">
+                     <label for="90_min">90 minuta</label>
+                     <br>
+                     <br>
+                     <p>Unesite koliko sati ili do koliko sati želite da se ponavlja:</p>
+                    <input type="number" id="repeat-hours" min="1" max="24">
+                    <br>
+                    <label for="image">Pritisnite dugme za početak</label><br><br>     
+                        
+                    <button id = "sub" type="submit"></button>
+              
+                
+            </div>
+
+            
+        </div>
+
+       
+   </body>
+</html>
